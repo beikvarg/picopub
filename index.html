@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>phpub2twtxt</title>
+    <title>Picopub</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <style type="text/css">
         body {
@@ -21,11 +21,11 @@
             /*padding-left: 10px;*/
         }
         a {
-            color: #9F9;
+            color: #C9F;
             text-decoration: none;
         }
         a:hover {
-            color: #9F9;
+            color: #C9F;
             text-decoration: underline;
         }
         form {
@@ -41,13 +41,13 @@
             flex-grow: 1;
             background: #222;
             color: #ffe;
-            border: solid 1px #9F9;
+            border: solid 1px #C9F;
             margin-right: 5px;
         }
         form input[type=submit] {
             margin-left: 5px;
             /*width: 4em;*/
-            background: #9F9;
+            background: #C9F;
             color: #222;
             border: none;
         }
@@ -57,6 +57,9 @@
             background-color: #ffe;
             width: 100%;
         }
+        #clear a{
+            color: #ff9e99;
+        }
         footer {
             font-size: 0.9em;
             text-align: right;
@@ -65,7 +68,7 @@
 </head>
 <body>
 
-    <h1>phpub2twtxt</h1>
+    <h1>📔 picopub.txt</h1>
     
     <p>An interface for publishing microblogposts to your selfhosted twtxt.txt</p>
 
@@ -74,9 +77,12 @@
         <input type="submit" value="Post">
     </form>
 
-    <iframe src="https://darch.dk/twtxt.txt" height="450"></iframe>
+    <iframe src="https://emoji.muan.co" height="200"></iframe>
 
-    <footer>developed by <a href="https://darch.dk/phpub2twtxt">sørenpeter</a> @ <a href="https://github.com/sorenpeter/phpub2twtxt/">github</a></footer>
+    <iframe src="twtxt.php" height="450"></iframe>
+    <div id="clear"><a href="clean.php">Clean</a></div>
+
+    <footer>based on <a href="https://darch.dk/phpub2twtxt">phpub2twtxt</a><br> maintained by <a href="https://lucas.koyu.space">luqaska</a> @ <a href="https://github.com/luqaska/picopub">github</a></footer><br>
 
 </body>
 </html>
