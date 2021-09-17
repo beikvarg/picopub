@@ -16,7 +16,7 @@ An php interface for publishing microblogposts to your selfhosted [twtxt.txt](ht
 - When you close your browser, your posts will delete
 
 ## Meta
-Code based on [register-with-txt by Gabriel de Jesus](https://github.com/gabrieldejesus/register-with-txt)
-and bits of php to make it write just one line of twtxt compliant data at a time.
+This project is based on [phpub2twtxt by sørenpeter](https://darch.dk/phpub2twtxt)
+(Which is based on [register-with-txt by Gabriel de Jesus](https://github.com/gabrieldejesus/register-with-txt))
 
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
