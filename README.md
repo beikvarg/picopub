@@ -10,7 +10,12 @@ An php interface for publishing microblogposts to your selfhosted [twtxt.txt](ht
 2. Make a post
 3. Copy+Paste
 
-# Meta
+## Warnings
+
+- The emojis widget will not put the emoji selected into the write box, it will put it in your clipboard
+- When you close your browser, your posts will delete
+
+## Meta
 Code based on [register-with-txt by Gabriel de Jesus](https://github.com/gabrieldejesus/register-with-txt)
 and bits of php to make it write just one line of twtxt compliant data at a time.
 
